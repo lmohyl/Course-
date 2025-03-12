@@ -77,3 +77,4 @@ if it gives error right it after git branch -M main => works ✔
 anothee solution: git config --global init.defaultBranch main => not sure
 
 this is me from iDourgham
+Second edit but not commit to the main branch
