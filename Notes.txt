@@ -1,0 +1,76 @@
+- to get a repo to ur local device
+
+=> git clone " repo link "
+
+- to add newly created files
+
+=> git status => to check
+=> then git add "file name.ext"
+
+- to commit this added file
+
+=> git commit -m "Added New File"
+
+- to send this local commit right now to the remote repo 
+
+=> git push RemoteName BranchName (From Local To Remote)
+
+- to reset after add 
+ 
+=> git reset head Osama.rtf
+
+- push syntax
+
+=> git branch 
+=> git remove -v
+=> git push RemoteName BranchName
+
+- to pull the new updates someone else done to ur local device (From Remote to Local)
+
+=> git pull RemoteName 
+
+- composed of 2:
+
+-- git fetch to get the new data in remote repo 
+-- git merge (remote repo with ur local branch) 
+
+==========================================================================================================================================
+** Session 7 **:
+
+=> get config
+=> get help config -> for documentation
+
+- to get any info from config
+=> git config --global user.name
+=> git config --global user.email
+
+
+- to set any info into config
+=> git config --global user.name "Mohamed Mohy El Deen"
+
+- to remove a config 
+=> git config --global --unset user.name
+
+- to edit the config 
+=> git config --global --edit
+
+==========================================================================================================================================
+** Session 8 **:
+
+- to generate a public key
+=> ssh-keygen -t rsa -b 4096 -C "m.mohyy.ai@gmail.com" 
+=> then add it to your accout through the web so on..
+
+- to connent to ur github using this key
+ssh -T git@github.com 		Password = 1234
+
+==========================================================================================================================================
+** Session 9 **:
+
+- to initialize a repo on ur local pc using cymder
+=> git init
+
+- -u for pull + push at the same time 
+
+=> git push -u origin main
+
