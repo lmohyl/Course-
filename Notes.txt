@@ -70,7 +70,8 @@ ssh -T git@github.com 		Password = 1234
 - to initialize a repo on ur local pc using cymder
 => git init
 
-- -u for pull + push at the same time 
+- -u for pull + push at the same time to pick the last updated version before uploading my own
 
 => git push -u origin main
-
+if it gives error right it after git branch -M main => works ✔
+anothee solution: git config --global init.defaultBranch main => not sure
